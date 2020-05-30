@@ -19,7 +19,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="wrapper-footer">
 
-
+    <?php 
+    if (!is_page('kontakt')) :?>
     <div class="container-fluid bg-primary py-4 mb-5">
         <div class="row text-center">
             <div class="col-12">
@@ -31,6 +32,11 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
         </div>
     </div>
+    <?php else:?>
+    <div class="container-fluid py-4 ">
+    </div>
+    <?php endif;?>
+
 
 
     <div class="<?php echo esc_attr( $container ); ?>">
@@ -101,8 +107,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
                 <div>
                     <p>Biuro otwarte od 9:00 do 17:00</p>
-                    <p><a href="tel:+48575727000">+48 575 727 000</a></p>
-                    <p><a href="mailto:kontakt@solarika.pl">kontakt@solarika.pl</a></p>
+                    <p><a rel="nofollow" href="tel:+48575727000">+48 575 727 000</a></p>
+                    <p><a rel="nofollow" href="mailto:kontakt@solarika.pl">kontakt@solarika.pl</a></p>
                 </div>
 
             </div>
