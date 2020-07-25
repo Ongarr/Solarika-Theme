@@ -17,7 +17,10 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="hero-text">
         <h1>Instalacje fotowoltaiczne</h1>
         <span>Pozwól by słońce pracowało dla Ciebie!</span>
+        <a class="wycena-hero d-block " href="<?= get_permalink(2196)?>"><button type="button"
+                class="btn btn-primary px-5 py-2">Zamów darmową wycenę</button></a>
     </div>
+
 </div>
 
 <div class="info-pills">
@@ -61,7 +64,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="container mt-5">
     <div class="row">
         <div class="col-12 text-center">
-            <a class="wycena-btn" href="<?= get_permalink(2196)?>"><button type="button" class="btn btn-primary  px-5 py-1">Darmowa wycena</button></a>
+            <a class="wycena-btn" href="<?= get_permalink(2196)?>"><button type="button"
+                    class="btn btn-primary  px-5 py-1">Darmowa wycena</button></a>
         </div>
     </div>
 </div>
@@ -190,7 +194,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="secondary-blog"
                     style="background-image: url('<?= get_the_post_thumbnail_url(get_the_ID(),'full');?> ')">
                     <div class="blog-meta-preview pt-2 px-2">
-                    <span>
+                        <span>
                             <?php the_date(); ?>
                         </span>
                         <h2><?php the_title(); ?></h2>

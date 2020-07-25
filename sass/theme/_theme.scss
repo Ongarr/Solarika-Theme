@@ -18,6 +18,24 @@ body.page-template-custompage-newsletter {
 	justify-content: center;
 }
 
+.wycena-hero {
+	button {
+		background: white;
+		color: black;
+
+		margin: 10px 0;
+		font-size: 18px !important;
+
+		&::after {
+			content: url(../images/arrowright.png);
+
+			padding-left: 10px;
+			display: inline-block;
+			transform: translateY(4px);
+		}
+	}
+}
+
 .wycena-btn button {
 	font-size: 28px !important;
 
@@ -580,6 +598,36 @@ body {
 	padding: 0 0 30px 0;
 }
 
+.nav-phone-mobile {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	div {
+		max-width: 300px;
+		a {
+			color: black;
+
+			::before {
+				content: url(../images/menu-phone.png);
+				top: 20px;
+				-webkit-transform: translateY(-50%);
+				-moz-transform: translateY(-50%);
+				-ms-transform: translateY(-50%);
+				-o-transform: translateY(-50%);
+				transform: translateY(-50%);
+				left: 12px;
+				position: absolute;
+			}
+		}
+	}
+}
+
+@include media-breakpoint-up(md) {
+	.nav-phone-mobile {
+		display: none;
+	}
+}
+
 #wrapper-footer {
 	background-color: #3e3e3e;
 	margin-top: 50px;
@@ -807,24 +855,25 @@ body {
 	background-image: none;
 
 	.kontakt-dane {
+		display: flex;
+		justify-content: space-between;
+
 		a {
 			font-size: 18px;
 			color: black;
-		}
-
-		div {
 			align-items: center;
 			display: flex;
 		}
 
-		div:first-child::before {
-			content: url(.././images/kontakt-telefon.png);
-			margin-right: 20px;
+		div {
 		}
 
-		div:last-child:before {
+		a:first-child::before {
+			content: url(.././images/kontakt-telefon.png);
+		}
+
+		a:last-child::before {
 			content: url(.././images/kontakt-mail.png);
-			margin-right: 20px;
 		}
 	}
 
