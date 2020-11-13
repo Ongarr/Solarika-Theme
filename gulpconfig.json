@@ -1,9 +1,13 @@
 {
 	"browserSyncOptions": {
-		"proxy": "localhost/solarika",
+		"proxy": "localhost/",
 		"notify": false
 	},
-	"browserSyncWatchFiles": ["./css/*.min.css", "./js/*.min.js", "./**/*.php"],
+	"browserSyncWatchFiles": [
+		"./css/*.min.css",
+		"./js/*.min.js",
+		"./**/*.php"
+	],
 	"paths": {
 		"js": "./js",
 		"css": "./css",

@@ -212,9 +212,22 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
     </div>
     <div class="row">
-        <a href="<?= get_permalink(2197)?>" class="mx-auto"><button type="button" class="btn btn-primary"><b>Czytaj
-                    więcej</b></button></a>
+        <a href="<?= get_permalink(2197)?>" class="mx-auto"><button type="button" class="btn btn-primary"><b>Czytaj więcej</b></button></a>
     </div>
+</div>
+<div class="container extended-seo-text mt-5 mb-5 pt-5">
+<h2>SOLARIKA – FOTOWOLTAIKA POZNAŃ – NAJLEPSZY DOSTAWCA FOTOWOLTAIKI</h2>
+Solarika to firma z siedzibą w Poznaniu, która zajmuje się sprzedażą i montażem profesjonalnych instalacji fotowoltaicznych. Aktualnie fotowoltaika to jeden z najszybciej rozwijających się rynków w Polsce. Widzimy coraz więcej paneli słonecznych na prywatnych domach, a panele fotowoltaiczne zagościły, już na dobre na gospodarstwach rolnych oraz budynkach firmowych. Fotowoltaika to inwestycja w przyszłość. Produkując własny prąd, oszczędzasz pieniądze na energii elektrycznej, oraz przyczyniasz się do ochrony naszej planety, produkując w pełni ekologiczny prąd. Inwestycja w fotowoltaikę może być pierwszym Twoim krokiem w kierunku ekologicznego domu, a także znacząco wspomóc Twój budżet, generując oszczędności!
+<h3 class="pt-5">JAKOŚĆ MONTAŻU FOTOWOLTAIKI</h3>
+Solarika wyróżnia się przede wszystkim dbaniem o  wysoką jakość montażu fotowoltaiki. Wszystkie nasze ekipy zakładają fotowoltaikę zgodnie z wypracowanymi, najwyższymi standardami montażu. Dbałość o szczelność dachu, dodatkowe zabezpieczenia po stronie DC i AC, dbałość o bezpieczeństwo pracowników na dachu – to tylko niektóre z wytycznych, które muszą spełnić nasze ekipy podczas montażu fotowoltaiki. Montujemy wyłącznie wysokiej jakości ogniwa fotowoltaiczne. 
+<h3 class="pt-5">ATRAKCYJNE CENY DZIĘKI WŁASNEMU IMPORTOWI PANELI FOTOWOLTAICZNYCH</h3>
+Dysponujemy ogniwamy fotowoltaicznymi z własnego importu, co pozwala nam zaoferować bardzo korzystną cenę na instalacje fotowoltaiczne. Podczas wyceny każdej instalacji fotowoltaicznej, staramy się w spełnić wszystkie oczekiwania Klienta. Jesteśmy elastyczni w kwestii wyboru podzespołów, więc jak masz już wybrane ogniwa fotowoltaiczne czy falownik, które chcesz umieścić w fotowoltaice na swoim dachu – przygotujemy dla Ciebie ofertę właśnie na takie komponenty!
+<h3 class="pt-5">PROFESJONALNE DORADZTWO</h3>
+Podczas kontaktu z nami możesz spodziewać się odpowiedniego doradztwa w kwestii doboru podzespołów do fotowoltaiki, doboru mocy czy wyboru lokalizacji dla Twojej fotowoltaiki!
+
+Zapraszam serdecznie do zapoznania się z naszą stroną w całości poświęconej fotowoltaice! Znajdziesz tutaj najnowsze informacje na temat paneli słonecznych i instalacji fotowoltaicznych. Dodatkowo możesz tutaj znaleźć zdjęcia i informację z montaży fotowoltaiki u naszych klientów! W dziale FAQ znajdziesz odpowiedzi na nurtujące cię pytania, natomiast w konkretnych podstronach dotyczących instalacji fotowoltaicznych dla domu, firmy czy gospodarstwa, znajdziesz korzyści wynikające z inwestycji w fotowoltaikę!
+
+Nasza działalność skupia się głównie na terenie zachodniej części Polski. Większość instalacji wykonujemy w Wielkopolsce oraz w obrębie takich miast jak Poznań, Konin, Bydgoszcz, Zielona Góra, Kalisz, Piła czy Leszno. Starając się wychodzić naprzeciw waszym oczekiwaniom, staramy się poszerzać zakres geograficzny. Jeśli jesteś z okolic Torunia, Bydgoszczy, Ostrowa Wielkopolskiego czy Stargardu – napisz do nas! Chętnie zamontujemy fotowoltaikę również u Ciebie. Działamy też na terenie województwa zachodniopomorskiego, lubuskiego czy dolnośląskiego.  Zastanawiasz się, czy Fotowoltaika się opłaca? Nie wiesz, ile może kosztować fotowoltaika? Zadzwoń lub napisz do nas – przygotujemy dla Ciebie indywidualną wycenę, żebyś mógł się cieszyć fotowoltaiką we własnym domu! Nasze biura znajdziesz w Galerii Arkada w Poznaniu – ul. Obornicka 229!
 </div>
 
 

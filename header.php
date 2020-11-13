@@ -40,10 +40,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <nav id="main-nav" class=" navbar navbar-expand-lg navbar-light " aria-labelledby="main-nav-label">
 
-                <h2 id="main-nav-label" class="sr-only">
-                    <?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
-                </h2>
-
                 <?php if ( 'container' === $container ) : ?>
 
                 <div class="container ">
